@@ -7,7 +7,6 @@ gemspec
 # that supports Bundler `platform` directive for rbx support in travis-ci
 # Once appraisal 1.0.0 is released, this line can be removed
 gem 'appraisal', :github => 'thoughtbot/appraisal', :ref => '6d599f'
-gem 'countries', :github => 'croudcare/countries', :branch => 'master'
 
 platforms :rbx do
   gem 'racc'
